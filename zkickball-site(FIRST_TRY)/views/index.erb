@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>kickball_site</title>
+  <link rel="stylesheet" href="/stylesheets/app.css">
+</head>
+
+<body>
+  <ul>
+    <% @teams.each do |team| %>
+      <li>
+        <a href = "/teams/<%= team %>"> <%= team %></a>
+      </li>
+      <% end %>
+  </ul>
+</body>
+</html>
