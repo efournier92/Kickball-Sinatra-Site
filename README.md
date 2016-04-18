@@ -1,10 +1,12 @@
-This is my first foray into building a Sinatra application to serve dynamically generated HTML.
+##National Cartoon Kickball Association Website
 
-I built it on the metaphor of a website for the `National Cartoon Kickball Association`.
+This is my first foray into building a Sinatra application to serve dynamically generated HTML
 
-Seed data is contained in `data/roster.json`, which includes four teams, along with the players and positions for each.
+I built it on the metaphor of a website for the `National Cartoon Kickball Association`
 
-##User Stories
+Seed data is contained in `data/roster.json`, which includes four teams, along with the players and positions for each
+
+###User Stories
 
 ```no-highlight
 As a Kickball Fan
@@ -30,9 +32,9 @@ I want to see all players in a certain position
 So that I can see who plays each position in the league
 ```
 
-##Models
+###Models
 
-####`Player`
+#####`Player`
 * Initializes with:
   * `name`
   * `position`
@@ -41,7 +43,7 @@ So that I can see who plays each position in the league
   * `all`
     * Returns an array of `Player` objects that correspond to each player
 
-####`Team`
+#####`Team`
 * Initializes with:
   * `name`
 * Methods:
