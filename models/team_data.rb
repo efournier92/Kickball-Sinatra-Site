@@ -1,5 +1,5 @@
-require "json"
-require "pry"
+require 'json'
+require 'pry'
 
 class TeamData
   class << self
@@ -10,7 +10,7 @@ class TeamData
     private
 
     def json_file
-      File.join(File.dirname(__FILE__), "..", "data", "roster.json")
+      File.join(File.dirname(__FILE__), '..', 'data', 'roster.json')
     end
 
     def json_document

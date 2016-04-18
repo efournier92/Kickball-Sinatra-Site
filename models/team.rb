@@ -1,4 +1,4 @@
-require_relative "../lib/team_data"
+require_relative 'team_data'
 
 class Team
 
@@ -29,7 +29,7 @@ class Team
   def positions
     positions = []
     team_data = TeamData.to_h
-    team_data["Simpson Slammers"].each do |position, player|
+    team_data['Simpson Slammers'].each do |position, player|
       positions << position
     end
     positions

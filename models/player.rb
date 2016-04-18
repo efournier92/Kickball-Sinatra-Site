@@ -1,4 +1,4 @@
-require_relative "../lib/team_data"
+require_relative 'team_data'
 
 class Player
 
