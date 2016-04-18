@@ -35,7 +35,7 @@ So that I can see who plays each position in the league
 ###Models
 
 #####`Player`
-* Initializes with:
+* Initialized With:
   * `name`
   * `position`
   * `team_name`
@@ -44,7 +44,7 @@ So that I can see who plays each position in the league
     * Returns an array of `Player` objects that correspond to each player
 
 #####`Team`
-* Initializes with:
+* Initialized With:
   * `name`
 * Methods:
   * `all`
